@@ -6,7 +6,7 @@ import Image from 'next/image'
 type Props = {}
 
 function Project({}: Props) {
-    const projects=[Case1,Case2,Case3];
+    const projects=["1","2","3"];
   return (
     <div className='h-screen relative fle overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
  
@@ -19,7 +19,7 @@ function Project({}: Props) {
 
 
 <div>
-    <h4 className="">
+    <h4 className={project}>
         <span>Case Study {i+1} of {projects.length}:</span>QUIZ
     </h4>
 </div>

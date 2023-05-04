@@ -3,6 +3,7 @@ import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from '@/component/BackgroundCircles'
 import nav from '@/images/nav.jpg';
 import Link from 'next/link';
+import Image from 'next/image';
 type Props = {}
 
 export default function Hero({}: Props) {
@@ -15,7 +16,7 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden" >
         <BackgroundCircles/>
         
-        <img  src={nav.src} className='relative rounded-full h-20 w-20 mx-auto object-cover'  alt="p"/>
+        <Image src={nav} className='relative rounded-full h-20 w-20 mx-auto object-cover'  alt="p"/>
        <div className="z-20">
         <h2 className="text-sm-uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
         <h1>
