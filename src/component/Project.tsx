@@ -2,6 +2,7 @@ import React from 'react'
 import Case1 from '../images/case1.png'
 import Case2 from '../images/BlueRed.png'
 import Case3 from '../images/Case3.png'
+import Image from 'next/image'
 type Props = {}
 
 function Project({}: Props) {
@@ -14,7 +15,7 @@ function Project({}: Props) {
     {
         projects.map((project, i)=>(
 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen ' >
-{i==0?(<img src={Case1.src} alt="a" />):(<img src={Case2.src} alt="a" />)}
+{i==0?(<Image src={Case1} alt="a" />):(<Image src={Case2} alt="a" />)}
 
 
 <div>

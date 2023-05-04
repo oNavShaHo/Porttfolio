@@ -1,5 +1,5 @@
 import React from 'react'
-import nav from '../images/nav.png'
+import Image from 'next/image'
 import { motion } from "framer-motion"
 import ReactImage from '../images/react.jpg'
 import FireBase from '../images/FireBase.png'
@@ -28,9 +28,9 @@ src={BlueRed.src}
     
      <div className='flex space-x-2 my-2'>
 
-     <img className='h-10 w-10 rounded-full' src={ReactImage.src}/>  
+     <Image className='h-10 w-10 rounded-full' src={ReactImage} alt="a"/>  
 
-     <img className='h- bg-transparent w-10 rounded-full' src={FireBase.src}/>  
+     <Image className='h- bg-transparent w-10 rounded-full' src={FireBase} alt=""/>  
 
    
 
@@ -41,9 +41,9 @@ src={BlueRed.src}
 </div>
 
 <ul className="list-disc space-y-4 ml-5 text-lg" >
-    <li>Created a Quiz(Product) for a startup in Singapore</li>
+    <li>Created a Quiz for a startup in Singapore</li>
     <li>Led frontend development and collaborated with UI/UX and backend teams for timely project delivery</li>
-    <li>Utilized API's to integrate backend with frontend and converted three websites from Figma to React code</li>
+    <li>Utilized API to integrate backend with frontend and converted three websites from Figma to React code</li>
    
 </ul>
     </article>

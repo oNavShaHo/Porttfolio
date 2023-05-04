@@ -1,5 +1,5 @@
 import React from 'react'
-import nav from '../images/nav.png'
+import Image from 'next/image'
 import { motion } from "framer-motion"
 import ReactImage from '../images/react.jpg'
 import FireBase from '../images/FireBase.png'
@@ -28,9 +28,9 @@ src={BlueRed.src}
     
      <div className='flex space-x-2 my-2'>
 
-     <img className='h-10 w-10 rounded-full' src={ReactImage.src}/>  
+     <Image className='h-10 w-10 rounded-full' alt="a"  src={ReactImage}/>  
 
-     <img className='h- bg-transparent w-10 rounded-full' src={FireBase.src}/>  
+     <Image className='h- bg-transparent w-10 rounded-full' alt="a" src={FireBase} />  
 
    
 
