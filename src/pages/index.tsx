@@ -4,7 +4,7 @@ import Hero from '@/component/hero'
 import About from '@/component/About'
 import WorkExperience from '@/component/WorkExperience'
 import Skills from '@/component/Skills'
-import Project from '@/component/Project'
+// import Project from '@/component/Project'
 import Contact from '@/component/ContactMe'
 export default function Home() {
   return (
