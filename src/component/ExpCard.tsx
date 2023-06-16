@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
-import ReactImage from '../images/react.jpg'
+import ReactImage from '../images/React.png'
 import FireBase from '../images/FireBase.png'
 import BlueRed from '../images/bluered-logo.png'
 type Props = {}

@@ -1,6 +1,21 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import Skill from './Skill'
+import Skill1 from './Skill1'
+import Skill2 from './Skill2'
+import Skillf from './Skillf'
+import fire from '../images/FireBase.png'
+import nextt from '../images/next.jpeg'
+import framer from '../images/framer.jpeg'
+import render from '../images/render.png'
+import types from '../images/type.png'
+import tail from '../images/tail.jpeg'
+import mongo from '../images/mogo.png'
+import java from '../images/java.png'
+import js from '../images/js.jpeg'
+import expo from '../images/expo.png'
+
+
 type Props = {}
 
 const Skills = (props: Props) => {
@@ -15,25 +30,25 @@ const Skills = (props: Props) => {
     h-screen flex relative flex-col text-center md:text-left
     xl:flex-col max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center
     ">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        <h3 className="absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
         </h3>
 
-<h3 className="top-36 uppercase tracking-[3px] text-gray-500 text-sa">Hover over a skill for currency profiency</h3>
+<h3 className="top-34 mb-10 uppercase tracking-[3px] text-gray-500 text-sa">Hover over a skill for currency profiency</h3>
 
 <div className='grid grid-cols-4 gap-5'>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
-    <Skill/>
+    <Skill1/>
+    <Skill2/>
+    <Skillf img={fire} per={75}/>
+    <Skillf img={nextt} per={75}/>
+    <Skillf img={framer} per={75}/>
+    <Skillf img={render} per={100}/>
+    <Skillf img={types}  per={90}/>
+    <Skillf img={tail}   per={80}/>
+    <Skillf img={mongo}  per={90}/>
+    <Skillf img={java}   per={80}/>
+    <Skillf img={js}   per={80}/>
+    <Skillf img={expo}   per={80}/>
     
 </div>
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
-import ReactImage from '../images/react.jpg'
-import FireBase from '../images/FireBase.png'
-import BlueRed from '../images/bluered-logo.png'
+import ReactImage from '../images/React.png'
+import FireBase from '../images/node js.png'
+import BlueRed from '../images/Digital.jpg'
 type Props = {}
 
 const ExpCard1 = (props: Props) => {
