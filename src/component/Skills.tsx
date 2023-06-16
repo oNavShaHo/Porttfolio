@@ -39,16 +39,16 @@ const Skills = (props: Props) => {
 <div className='grid grid-cols-4 gap-5'>
     <Skill1/>
     <Skill2/>
-    <Skillf img={fire} per={75}/>
-    <Skillf img={nextt} per={75}/>
-    <Skillf img={framer} per={75}/>
-    <Skillf img={render} per={100}/>
-    <Skillf img={types}  per={90}/>
-    <Skillf img={tail}   per={80}/>
-    <Skillf img={mongo}  per={90}/>
-    <Skillf img={java}   per={80}/>
-    <Skillf img={js}   per={80}/>
-    <Skillf img={expo}   per={80}/>
+    <Skillf img={fire.src} per={75}/>
+    <Skillf img={nextt.src} per={75}/>
+    <Skillf img={framer.src} per={75}/>
+    <Skillf img={render.src} per={100}/>
+    <Skillf img={types.src}  per={90}/>
+    <Skillf img={tail.src}   per={80}/>
+    <Skillf img={mongo.src}  per={90}/>
+    <Skillf img={java.src}   per={80}/>
+    <Skillf img={js.src}   per={80}/>
+    <Skillf img={expo.src}   per={80}/>
     
 </div>
 

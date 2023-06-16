@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 type Props = {
-  img: string;
+  img:string,
   per: number;
 };
 
@@ -18,7 +18,7 @@ const Skillf = ({ img, per }: Props) => {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src={img.src}
+        src={img}
         alt="Skill"
         className="rounded-full border border-gray-500 object-cover w-24 md:w-28 md:h-28 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
