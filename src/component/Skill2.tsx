@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import nav from '../images/node js.png'
+import nav from '../images/node.png'
 type Props = {}
 
 const Skill2 = ( directionLeft : Props) => {
