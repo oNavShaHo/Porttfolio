@@ -1,8 +1,9 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Skill from './Skill'
+//import Skill from './Skill'
 import Skill1 from './Skill1'
 import Skill2 from './Skill2'
+import Skillft from './Skillft'
 import Skillf from './Skillf'
 import fire from '../images/FireBase.png'
 import nextt from '../images/next.jpeg'
@@ -34,19 +35,19 @@ const Skills = (props: Props) => {
         Skills
         </h3>
 
-<h3 className="top-34 mb-10 uppercase tracking-[3px] text-gray-500 text-sa">Hover over a skill for currency profiency</h3>
+<h3 className="top-34 mb-12 uppercase tracking-[3px] text-gray-500 text-sa">Hover over a skill for currency profiency</h3>
 
-<div className='grid grid-cols-4 gap-5'>
+<div className=' pt-10 grid grid-cols-4 gap-5'>
     <Skill1/>
     <Skill2/>
     <Skillf img={fire.src} per={75}/>
     <Skillf img={nextt.src} per={75}/>
-    <Skillf img={framer.src} per={75}/>
-    <Skillf img={render.src} per={100}/>
+    <Skillft img={framer.src} per={75}/>
+    <Skillft img={render.src} per={100}/>
     <Skillf img={types.src}  per={90}/>
     <Skillf img={tail.src}   per={80}/>
-    <Skillf img={mongo.src}  per={90}/>
-    <Skillf img={java.src}   per={80}/>
+    <Skillft img={mongo.src}  per={90}/>
+    <Skillft img={java.src}   per={80}/>
     <Skillf img={js.src}   per={80}/>
     <Skillf img={expo.src}   per={80}/>
     

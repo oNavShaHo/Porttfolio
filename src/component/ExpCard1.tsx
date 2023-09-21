@@ -44,6 +44,7 @@ src={BlueRed.src}
     <li>Created a Quiz for a startup in Singapore</li>
     <li>Led frontend development and collaborated with UI/UX and backend teams for timely project delivery</li>
     <li>Utilized API to integrate backend with frontend and converted three websites from Figma to React code</li>
+    <li className='font-bold text-cyan-600 '><a href='https://drive.google.com/file/d/1oAMawV8DOvT-dt92ujXDAQOsAsqH0wu3/view?usp=sharing' >click here for Certificate</a></li>
    
 </ul>
     </article>

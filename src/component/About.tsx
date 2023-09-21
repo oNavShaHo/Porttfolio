@@ -47,6 +47,7 @@ My proficiency in Next.js allows me to build fast, server-side rendered web appl
 
 
              </p>
+             <div className='font-bold text-cyan-600 '><a href='https://drive.google.com/file/d/1oLdlTdZZ5X5XBa_YCtadjqRSoTAqZscA/view?usp=drive_link'>Click here for resume</a></div>
      </div>
 
     </motion.div>
