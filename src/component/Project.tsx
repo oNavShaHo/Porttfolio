@@ -6,8 +6,8 @@ import blue from '../images/blueredsite.png'
 type Props = {}
 
 function Projects({}: Props) {
-  const projects = [1, 2];
-  
+  const projects = [0, 1]; // Change index to start from 0
+
   const p: { [key: number]: any } = {
     0: {
       img: quiz1,
@@ -39,7 +39,7 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={p[project].img}
+              src={p[project].img.src}
               alt='yo'
               className='h-[55vh]'
             />
