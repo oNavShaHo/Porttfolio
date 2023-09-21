@@ -50,6 +50,7 @@ function Projects
           transition={{duration: 1.2}}
           whileInView={{ opacity:1,y:0 }}
           viewport={{ once:true }}
+          {...{project}}
           className='h-[55vh] '
          src={p[i + 1].img.src}
           alt='yo'
