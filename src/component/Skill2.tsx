@@ -5,7 +5,7 @@ type Props = {}
 
 const Skill2 = ( directionLeft : Props) => {
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className="group relative flex cursor-pointer ">
 
     <motion.img 
     

@@ -29,7 +29,7 @@ const Skills = (props: Props) => {
 
     className="
     h-screen flex relative flex-col text-center md:text-left
-    xl:flex-col max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center
+    xl:flex-col w-screen max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center
     ">
         <h3 className="absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
@@ -37,7 +37,7 @@ const Skills = (props: Props) => {
 
 <h3 className="top-34 mb-12 uppercase tracking-[3px] text-gray-500 text-sa">Hover over a skill for currency profiency</h3>
 
-<div className=' pt-10 grid grid-cols-4 gap-5'>
+<div className=' pt-10 w-screen grid grid-cols-4 gap-5'>
     <Skill1/>
     <Skill2/>
     <Skillf img={fire.src} per={75}/>

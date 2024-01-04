@@ -10,7 +10,7 @@ const Skillf = ({ img, per }: Props) => {
   const directionLeft = false; // Modify this as per your requirement
 
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className="group relative flex cursor-pointer ">
       <motion.img
         initial={{
           x: directionLeft ? -200 : 200,

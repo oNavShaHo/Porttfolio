@@ -12,14 +12,16 @@ function WorkExperience({}: Props) {
     transition={{duration:1.5}}
     
 
-    className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row
+    className='h-screen   flex relative overflow-hidden flex-col text-left md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center '>
        <h3 className="absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl">Experience</h3>
 
-       <div className="w-full   flex space-x-5 overflow-x-scroll p-10 snap-x snap snap-mandatory">
+       <div className="w-full   flex space-x-5 overflow-x-scroll p-10 snap-x snap snap-mandatory  ">
         {/* ExperienceCard */}
-       <ExpCard/>
-       <ExpCard1/>
+        <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center   md:p-44 h-screen overflow-hidden '> <ExpCard/></div>
+        <div className='w-screen  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-44 h-screen"'> <ExpCard1/></div>
+       
+       
        
        
        </div>
