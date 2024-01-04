@@ -18,8 +18,8 @@ function WorkExperience({}: Props) {
 
        <div className="w-full   flex space-x-5 overflow-x-scroll p-10 snap-x snap snap-mandatory  ">
         {/* ExperienceCard */}
-        <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center   md:p-44 h-screen overflow-hidden '> <ExpCard/></div>
-        <div className='w-screen  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-44 h-screen"'> <ExpCard1/></div>
+        <div className='w-[80vw] flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center   md:p-44 h-screen overflow-hidden '> <ExpCard/></div>
+        <div className='w-[80vw]  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-44 h-screen"'> <ExpCard1/></div>
        
        
        

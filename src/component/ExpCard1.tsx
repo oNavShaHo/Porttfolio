@@ -9,7 +9,7 @@ type Props = {};
 const ExpCard1 = (props: Props) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-screen md:w-[80vw] xl:w-[60vw]  snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
+      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  sm:w-[60vw] md:w-[80vw] xl:w-[60vw]  snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
     cursor-pointer transition-opacity duration-200 overflow-hidden justify-center
     "
     >
@@ -53,7 +53,7 @@ const ExpCard1 = (props: Props) => {
           </div>
       
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-4 ml-5 text-sm lg:text-lg">
           <li>Created a Quiz for a startup in Singapore</li>
           <li>
             Led frontend development and collaborated with UI/UX and backend

@@ -9,8 +9,8 @@ type Props = {};
 const ExpCard = (props: Props) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-screen md:w-[80vw] xl:w-[60vw]  snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
-    cursor-pointer transition-opacity duration-200 overflow-hidden justify-center
+      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  sm:w-[60vw] md:w-[80vw] xl:w-[60vw]  snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
+      cursor-pointer transition-opacity duration-200 overflow-hidden justify-center
     "
     >
       <div className="">
@@ -52,7 +52,7 @@ const ExpCard = (props: Props) => {
           </div>
        
 
-        <ul className="list-disc space-y-4 ml-5 flex-wrap   lg:text-lg">
+        <ul className="list-disc space-y-4 ml-5 flex-wrap text-sm   lg:text-lg">
           <li>
             Implemented a Login System using React Native and integrated it with
             Firebase Authentication

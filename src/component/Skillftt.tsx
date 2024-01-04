@@ -6,14 +6,14 @@ type Props = {
   per: number;
 };
 
-const Skillf = ({ img, per }: Props) => {
-  const directionLeft = false; // Modify this as per your requirement
+const Skillftt = ({ img, per }: Props) => {
+  const directionLeft = true; // Modify this as per your requirement
 
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
         initial={{
-          x: directionLeft ? -200 : 200,
+          x: directionLeft ? -20 : 20,
           opacity: 0,
         }}
         transition={{ duration: 1 }}
@@ -31,4 +31,4 @@ const Skillf = ({ img, per }: Props) => {
   );
 };
 
-export default Skillf;
+export default Skillftt;

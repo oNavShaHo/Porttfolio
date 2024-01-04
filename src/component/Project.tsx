@@ -34,8 +34,9 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="  h-screen flex flex-col relative  overflow-hidden  text-center md:flex-col  justify evenly mx-auto items-center z-0"
-    >
+      className="  h-screen  flex flex-col relative  overflow-hidden  text-center md:flex-col  justify evenly mx-auto items-center z-0"
+    > 
+    <div className="w-[80vw]">
       <h3 className=" flex-col text-center    uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
@@ -72,6 +73,7 @@ function Projects({}: Props) {
         ))}
       </div>
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"></div>
+      </div>
     </motion.div>
   );
 }
